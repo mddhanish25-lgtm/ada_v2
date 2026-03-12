@@ -13,13 +13,13 @@ import { FilesetResolver, HandLandmarker } from '@mediapipe/tasks-vision';
 import ConfirmationPopup from './components/ConfirmationPopup';
 import AuthLock from './components/AuthLock';
 import KasaWindow from './components/KasaWindow';
-import PrinterWindow from './components/PrinterWindow';
+//import PrinterWindow from './components/PrinterWindow';
 import SettingsWindow from './components/SettingsWindow';
 
 
 
 const socket = io('http://localhost:8000');
-const { ipcRenderer } = window.require('electron');
+//const { ipcRenderer } = window.require('electron');
 
 function App() {
     const [status, setStatus] = useState('Disconnected');
